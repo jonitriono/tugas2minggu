@@ -106,6 +106,11 @@ public class MainMenu extends javax.swing.JFrame {
         menuMaster.add(subSuplier);
 
         subPelanggan.setText("Pelanggan");
+        subPelanggan.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                subPelangganActionPerformed(evt);
+            }
+        });
         menuMaster.add(subPelanggan);
 
         subAkun.setText("Akun");
@@ -188,6 +193,11 @@ public class MainMenu extends javax.swing.JFrame {
     MasterBarang masterBarang = new MasterBarang(this, true);
     masterBarang.setVisible(true);
     }//GEN-LAST:event_subBarangActionPerformed
+
+    private void subPelangganActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subPelangganActionPerformed
+       FM_Pelanggan pel=new FM_Pelanggan(this, true);
+    pel.setVisible(true);
+    }//GEN-LAST:event_subPelangganActionPerformed
 
     /**
      * @param args the command line arguments
