@@ -1,0 +1,19 @@
+BUat Form Master Barang
+-inputan
+	kode barang
+	nama barang
+	harga
+
+-tombol
+	tambah
+	simpan
+	edit
+	hapus
+	update
+	tutup
+
+-tabel
+-pencarian
+	textfield
+	tombol cari
+	tombol reload
