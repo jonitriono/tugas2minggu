@@ -166,7 +166,8 @@ public class MainMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_subExitActionPerformed
 
     private void subAkunActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subAkunActionPerformed
-        // TODO add your handling code here:
+        FM_Akun akun=new FM_Akun(this, true);
+    akun.setVisible(true);
     }//GEN-LAST:event_subAkunActionPerformed
 
     private void subPenjualanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subPenjualanActionPerformed
